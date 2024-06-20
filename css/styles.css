@@ -1,0 +1,143 @@
+body{
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a {
+   text-decoration: none;
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.span {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.navigation {
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.navigation:hover {
+    color: #404bbf;
+}
+
+.contacts {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contacts:hover {
+    color: #404bbf;
+}
+
+.order-service {
+    background-color: #2e2f42;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.07143;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.02em;
+}
+
+button {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4D5AE5;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #404bbf;
+}
+
+.features>h3 {
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.features>p {
+    color:#2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team {
+    color: #2E2F42;
+    background-color: #f4f4fd;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-descr>h3 {
+    color: #2e2f42;
+    background-color: #fff;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.team-descr>p {
+    color: #2e2f42;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.portfolio {
+    color: #2E2F42;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.examples>h3 {
+    color:#2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.examples>p {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.final {
+    color: #f4f4fd;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color: #2e2f42;
+}
