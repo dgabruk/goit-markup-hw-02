@@ -31,9 +31,11 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
 }
 
-.navigation:hover {
+.navigation:hover,
+.navigation:focus {
     color: #404bbf;
 }
 
@@ -42,17 +44,24 @@ a {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 
-.contacts:hover {
+.contacts-links:hover,
+.contacts-links:focus {
     color: #404bbf;
+}
+
+.contacts-links {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .order-service {
     background-color: #2e2f42;
-}
-
-h1 {
+    line-height: 1.07;
     font-size: 56px;
     line-height: 1.07143;
     text-align: center;
@@ -60,7 +69,8 @@ h1 {
     letter-spacing: 0.02em;
 }
 
-button {
+.order {
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -68,21 +78,24 @@ button {
     background-color: #4D5AE5;
     text-align: center;
     cursor: pointer;
+    font-weight: 500;
 }
 
-button:hover {
+.order:hover,
+.order:focus {
     background-color: #404bbf;
 }
 
-.features>h3 {
+.features {
+    font-weight: 500;
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.features>p {
-    color:#2E2F42;
+.features-descr {
+    color:#434455;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -90,50 +103,63 @@ button:hover {
 
 .team {
     color: #2E2F42;
-    background-color: #f4f4fd;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.team-descr>h3 {
-    color: #2e2f42;
+.team-descr {
+    background-color: #f4f4fd;
+}
+
+.team-memb {
     background-color: #fff;
+}
+
+.team-name {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: center;
+    color: #2E2F42;
 }
 
-.team-descr>p {
-    color: #2e2f42;
-    background-color: #fff;
+.team-job {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: center;
-}
+    color: #434455;
 
+}
 .portfolio {
     color: #2E2F42;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
-.examples>h3 {
+.example {
+    font-weight: 500;
     color:#2E2F42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.examples>p {
+.example-descr {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.appeal {
+    background-color: #2E2F42;
 }
 
 .final {
