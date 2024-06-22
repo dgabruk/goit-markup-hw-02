@@ -17,6 +17,7 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .web {
     color: #2e2f42;
     font-family: "Raleway", sans-serif;
@@ -59,11 +60,15 @@ a {
     letter-spacing: 0.02em;
 }
 
+.hero {
+    background-color: #2E2F42;
+}
+
 .order-service {
     background-color: #2e2f42;
     line-height: 1.07;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     text-align: center;
     color: #fff;
     letter-spacing: 0.02em;
@@ -160,6 +165,10 @@ a {
 
 .appeal {
     background-color: #2E2F42;
+}
+
+.studio {
+    color: #f4f4fd;
 }
 
 .final {
