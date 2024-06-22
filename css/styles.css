@@ -85,8 +85,8 @@ a {
     font-weight: 500;
 }
 
-.order:hover,
-.order:focus {
+.service:hover,
+.service:focus {
     background-color: #404bbf;
 }
 
